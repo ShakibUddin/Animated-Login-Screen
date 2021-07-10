@@ -5,19 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="constants.css" />
     <link rel="stylesheet" href="login.css" />
     <link rel="stylesheet" href="animations.css" />
   </head>
   <body>
+    <script
+      src="https://kit.fontawesome.com/2415ace42b.js"
+      crossorigin="anonymous"
+    ></script>
     <section class="main">
       <div class="form">
         <div class="box1">
-            <p class="welcome">Welcome</p>
+          <p class="welcome">Welcome Back!</p>
         </div>
-        <div class="box2"></div>
-        <div class="box3"></div>
+        <div class="box2">
+          <fieldset class="text-field email-box">
+            <legend>Email</legend>
+            <i class="fas fa-envelope"></i><input type="email" />
+          </fieldset>
+          <fieldset class="text-field password-box">
+            <legend>Password</legend>
+            <i class="fas fa-lock"></i><input type="password" /><i
+              class="fas fa-eye"
+            ></i>
+          </fieldset>
+        </div>
+        <div class="box3">
+          <span>Don't have an account? <b>CREATE NOW!</b></span>
+          <button class="primary-button">LOGIN</button>
+        </div>
       </div>
-      <contadiviner class="wave-box"></div>
     </section>
   </body>
 </html>
