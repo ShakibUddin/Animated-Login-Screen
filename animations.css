@@ -21,7 +21,7 @@
 @keyframes display-cat {
   100% {
     visibility: visible;
-    transform: translateY(-127%);
+    transform: translateY(-35vh);
   }
 }
 @keyframes float-form {
