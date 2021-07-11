@@ -17,16 +17,22 @@ html {
   min-width: 350px;
   display: flex;
   justify-content: center;
+  align-items: center;
   position: relative;
   flex-direction: column;
   background: transparent;
   border-radius: 20px;
   z-index: 1;
-  animation: float-form 4s linear infinite forwards 2.5s alternate;
-  transition: animation 4s;
+  animation: float-form 3s linear infinite forwards 2.5s alternate;
 }
 .form:hover {
   animation-play-state: paused;
+}
+.form > img {
+  visibility: hidden;
+  z-index: 3;
+  position: absolute;
+  animation: display-cat 1s linear 1 forwards 2.5s;
 }
 .form > div {
   width: 100%;
@@ -109,6 +115,9 @@ input {
   border: 2px solid var(--border-color);
   border-radius: 10px;
   animation: bottom-to-top 1s ease-out 1 forwards 4s;
+}
+.primary-button > i {
+  color: var(--primary-color);
 }
 .box3 > span {
   visibility: hidden;

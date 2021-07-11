@@ -18,6 +18,12 @@
     box-shadow: none;
   }
 }
+@keyframes display-cat {
+  100% {
+    visibility: visible;
+    transform: translateY(-118%);
+  }
+}
 @keyframes float-form {
   0% {
     transform: translateY(-3%);
