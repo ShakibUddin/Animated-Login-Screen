@@ -63,6 +63,7 @@ html {
 .welcome {
   font-size: 0;
   padding: 10px;
+  padding-top: 20px;
   text-align: center;
   color: var(--primary-text-color);
   transform: rotateX(-180deg);
@@ -87,9 +88,13 @@ input {
   background: transparent;
   color: var(--primary-text-color);
   padding: 5px;
+  color: white;
   font-size: 1.2rem;
   outline: none;
   border: none;
+}
+input::placeholder {
+  color: rgba(212, 212, 212, 0.473);
 }
 .email-box {
   animation: left-to-right 1s ease-out 1 forwards 3s;
